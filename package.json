@@ -1,11 +1,9 @@
 {
-  "name": "hello-pluralsighters",
+  "name": "hello-Docker",
   "private": true,
   "version": "0.0.1",
-  "description": "Demo app for Pluralsight courses and DockerDeep Dive book",
+  "description": "Demo app for docker training",
   "main": "app.js",
-  "author": "Nigel Poulton <nigelpoulton@hotmail.com>",
-  "license": "You'd have to be mad to use this in production :-D",
   "dependencies": {
     "express": "4.15.5",
     "pug": "2.0.0-rc.4",
