@@ -4,7 +4,7 @@ FROM alpine
 
 LABEL maintainer="exploredocker@gmail.com"
 
-# builds your application
+# build your application
 # Install Node and NPM
 RUN apk add --update nodejs nodejs-npm
 
