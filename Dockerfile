@@ -4,7 +4,7 @@ FROM alpine
 
 LABEL maintainer="exploredocker@gmail.com"
 
-# build your application
+# execute command and create layer
 # Install Node and NPM
 RUN apk add --update nodejs nodejs-npm
 
@@ -12,7 +12,7 @@ RUN apk add --update nodejs nodejs-npm
 # Copy app to /src
 COPY . /src
 
-# set working directory for container
+# set working directory of container
 WORKDIR /src
 
 # Install dependencies
